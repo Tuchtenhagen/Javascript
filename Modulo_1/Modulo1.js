@@ -17,7 +17,6 @@ var endereco = {
 
 
 
-
 function pares(x, y) {
 
     for (contador = x; contador < y; contador++) {
