@@ -1,14 +1,12 @@
-var idadePromise = function() {
+function checaIdade(idade) {
     return new Promise(function(resolve, reject) {
 
-
-
+        if (idade >= 18) {
+            resolve();
+        } else {
+            reject()
+        }
     });
-}
-
-
-function checaIdade(idade) {
-    // Retornar uma promise
 }
 checaIdade(20)
     .then(function() {
