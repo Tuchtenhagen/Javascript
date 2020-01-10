@@ -1,5 +1,3 @@
-"use strict";
-
 //AULA CLASSES
 
 /*
@@ -11,8 +9,10 @@ class Matematica {
 
 console.log(Matematica.soma(2, 3));
 */
-//AULA OPERAÇÃO EM ARRAY
 
+
+
+//AULA OPERAÇÃO EM ARRAY
 /*
 const arr = [1, 3, 4, 5, 8, 9];
 
@@ -41,6 +41,9 @@ const find = arr.find(function(item) {
 console.log(find);
 
 */
+
+
+
 //AULA ARROW FUNCTION
 
 /*
@@ -54,16 +57,20 @@ const teste = () => ({ nome: 'Richard' });
 
 console.log(teste());
 */
-//AULA ARROW VALORES PADRÃO
 
+
+
+//AULA ARROW VALORES PADRÃO
 /*
 const soma = (a = 3, b = 6) => a + b;
 
 console.log(soma(1));
 console.log(soma());
 */
-//AULA DESESTRUTURAÇÃO
 
+
+
+//AULA DESESTRUTURAÇÃO
 /*
 const usuario = {
     nome: 'Richard',
@@ -86,8 +93,11 @@ function mostraNome({ nome, idade, endereco: { cidade } }) {
 
 mostraNome(usuario);
 */
-//AULA OPERADORES REST/SPREAD
 
+
+
+
+//AULA OPERADORES REST/SPREAD
 /*
 
 //REST
@@ -108,8 +118,17 @@ const usuario2 = {...usuario1, nome: 'William' };
 
 console.log(usuario2);
 */
+
+
+
+
 //AULA TEMPLATE LITERALS
-///*
-var nome = 'Richard';
-var idade = 25;
-console.log("Meu nome \xE9 ".concat(nome, " e tenho ").concat(idade, " anos.")); //*/
+/*
+const nome = 'Richard';
+const idade = 25;
+
+console.log(`Meu nome é ${nome} e tenho ${idade} anos.`);
+
+*/
+
+alert('Testando');
