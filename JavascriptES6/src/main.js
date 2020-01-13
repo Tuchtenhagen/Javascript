@@ -1,4 +1,4 @@
-//AULA CLASSES
+//#region AULA CLASSES
 
 /*
 class Matematica {
@@ -10,9 +10,11 @@ class Matematica {
 console.log(Matematica.soma(2, 3));
 */
 
+//#endregion
 
 
-//AULA OPERAÇÃO EM ARRAY
+
+//#region  AULA OPERAÇÃO EM ARRAY
 /*
 const arr = [1, 3, 4, 5, 8, 9];
 
@@ -42,9 +44,11 @@ console.log(find);
 
 */
 
+//#endregion
 
 
-//AULA ARROW FUNCTION
+
+//#region AULA ARROW FUNCTION
 
 /*
 const arr = [1, 3, 4, 5, 8, 9];
@@ -57,20 +61,22 @@ const teste = () => ({ nome: 'Richard' });
 
 console.log(teste());
 */
+//#endregion
 
 
 
-//AULA ARROW VALORES PADRÃO
+//#region AULA ARROW VALORES PADRÃO
 /*
 const soma = (a = 3, b = 6) => a + b;
 
 console.log(soma(1));
 console.log(soma());
 */
+//#endregion
 
 
 
-//AULA DESESTRUTURAÇÃO
+//#region AULA DESESTRUTURAÇÃO
 /*
 const usuario = {
     nome: 'Richard',
@@ -94,10 +100,11 @@ function mostraNome({ nome, idade, endereco: { cidade } }) {
 mostraNome(usuario);
 */
 
+//#endregion
 
 
 
-//AULA OPERADORES REST/SPREAD
+//#region AULA OPERADORES REST/SPREAD
 /*
 
 //REST
@@ -118,11 +125,12 @@ const usuario2 = {...usuario1, nome: 'William' };
 
 console.log(usuario2);
 */
+//#endregion
 
 
 
 
-//AULA TEMPLATE LITERALS
+//#region AULA TEMPLATE LITERALS
 /*
 const nome = 'Richard';
 const idade = 25;
@@ -130,5 +138,7 @@ const idade = 25;
 console.log(`Meu nome é ${nome} e tenho ${idade} anos.`);
 
 */
+
+//#endregion
 
 alert('Testando');
