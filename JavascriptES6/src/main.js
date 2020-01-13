@@ -141,4 +141,19 @@ console.log(`Meu nome é ${nome} e tenho ${idade} anos.`);
 
 //#endregion
 
-alert('Testando');
+//#region EXERCICIOS MODULO 2
+
+//#region EXERCICIO 1
+
+// import ClasseUsuario from './functions';
+// import { idade } from './functions';
+import Usuario, { idade as IdadeUsuario } from './functions';
+
+Usuario.info();
+
+console.log(IdadeUsuario);
+
+//#endregion
+
+
+//#endregion
